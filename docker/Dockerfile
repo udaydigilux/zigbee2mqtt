@@ -18,7 +18,7 @@ RUN apk add --no-cache --virtual .buildtools make gcc g++ python3 linux-headers 
 # Release
 FROM base as release
 
-LABEL org.opencontainers.image.authors="Koen Kanters"
+LABEL org.opencontainers.image.authors="Uday Paul"
 LABEL org.opencontainers.image.title="zigbee2mqtt"
 LABEL org.opencontainers.image.description="Zigbee to MQTT bridge using Zigbee-herdsman"
 LABEL org.opencontainers.image.url="https://github.com/udaydigilux/zigbee2mqtt"
